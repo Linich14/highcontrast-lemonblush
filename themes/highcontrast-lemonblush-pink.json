@@ -23,8 +23,8 @@
     "sideBar.background": "#000000",
     "sideBar.foreground": "#FFFFFF",
     "sideBar.border": "#FF69B4",
-    "sideBarSectionHeader.background": "#FF69B4",
-    "sideBarSectionHeader.foreground": "#FFFFFF",
+    "sideBarSectionHeader.background": "#000000",
+    "sideBarSectionHeader.foreground": "#FF69B4",
     "sideBarSectionHeader.border": "#FF69B4",
     "statusBar.background": "#000000",
     "statusBar.foreground": "#FFFFFF",
@@ -61,14 +61,14 @@
     "dropdown.foreground": "#FFFFFF",
     "dropdown.border": "#FF69B4",
     "dropdown.listBackground": "#000000",
-    "list.activeSelectionBackground": "#FF69B4",
-    "list.activeSelectionForeground": "#FFFFFF",
-    "list.hoverBackground": "#FFB6C1",
-    "list.hoverForeground": "#FFFFFF",
-    "list.inactiveSelectionBackground": "#333333",
+    "list.activeSelectionBackground": "#000000",
+    "list.activeSelectionForeground": "#FF69B4",
+    "list.hoverBackground": "#222222",
+    "list.hoverForeground": "#FF69B4",
+    "list.inactiveSelectionBackground": "#000000",
     "list.inactiveSelectionForeground": "#FFFFFF",
-    "list.focusBackground": "#FF69B4",
-    "list.focusForeground": "#FFFFFF",
+    "list.focusBackground": "#000000",
+    "list.focusForeground": "#FF69B4",
     "list.dropBackground": "#FF69B4",
     "scrollbar.shadow": "#000000",
     "scrollbarSlider.background": "#333333",
@@ -127,6 +127,18 @@
   },
   "tokenColors": [
     {
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "scope": ["string.json"],
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
       "scope": ["comment", "comment.block"],
       "settings": {
         "foreground": "#75715E"
@@ -182,6 +194,17 @@
       ],
       "settings": {
         "foreground": "#F92672"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#66D9EF"
       }
     }
   ]

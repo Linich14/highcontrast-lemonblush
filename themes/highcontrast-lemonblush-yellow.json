@@ -183,6 +183,29 @@
       "settings": {
         "foreground": "#F92672"
       }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "scope": ["string.json"],
+      "settings": {
+        "foreground": "#E6DB74"
+      }
     }
   ]
 }
