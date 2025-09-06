@@ -1,0 +1,39 @@
+{
+  "name": "highcontrast-lemonblush",
+  "displayName": "High Contrast Lemon Blush",
+  "description": "A high contrast theme featuring yellow and pink variants designed for accessibility.",
+  "version": "1.0.0",
+  "publisher": "Linich",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Linich14/highcontrast-lemonblush.git"
+  },
+  "engines": {
+    "vscode": "^1.103.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "High Contrast Lemon Blush Yellow",
+        "uiTheme": "vs",
+        "path": "./themes/highcontrast-lemonblush-yellow.json"
+      },
+      {
+        "label": "High Contrast Lemon Blush Pink",
+        "uiTheme": "vs",
+        "path": "./themes/highcontrast-lemonblush-pink.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'No compilation step required'",
+    "package": "npm run compile && vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^1.92.0"
+  }
+}
