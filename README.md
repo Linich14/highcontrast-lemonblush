@@ -4,7 +4,12 @@
 This project was created because, although there are several high contrast themes for VS Code, none fully matched my personal taste or visual comfort. Some had details in their color usage that didn't convince me, so I decided to make my own variants: one yellow and one pink. The focus is more on personal aesthetic and comfort than on universal visibility or experience.
 
 ## Screenshots
-*Images will be added soon.*
+
+![Yellow Theme Preview](images/theme-yellow-preview.png)
+
+---
+
+![Pink Theme Preview](images/theme-pink-preview.png)
 
 ## Usage
 To use the highcontrast-lemonblush themes in your editor:
@@ -16,4 +21,4 @@ To use the highcontrast-lemonblush themes in your editor:
 Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file
+This project is licensed under the MIT License.
