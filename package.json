@@ -30,6 +30,16 @@
         "label": "High Contrast Lemon Blush Pink",
         "uiTheme": "vs-dark",
         "path": "./themes/highcontrast-lemonblush-pink.json"
+      },
+      {
+        "label": "High Contrast Lemon Blush Yellow Light",
+        "uiTheme": "vs",
+        "path": "./themes/highcontrast-lemonblush-yellow-light.json"
+      },
+      {
+        "label": "High Contrast Lemon Blush Pink Light",
+        "uiTheme": "vs",
+        "path": "./themes/highcontrast-lemonblush-pink-light.json"
       }
     ]
   },
